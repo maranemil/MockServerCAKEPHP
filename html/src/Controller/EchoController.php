@@ -29,7 +29,7 @@ class EchoController extends AppController
         return $this->response->withStringBody($json);
     }
 
-    public function getStatus()
+    public function getStatus(): Response
     {
         $this->viewBuilder()->setLayout('ajax');
         $json = file_get_contents(WWW_ROOT.'mock_api/status.json');

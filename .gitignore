@@ -3,4 +3,4 @@ logs/*
 html/vendor/*
 html/logs/*
 html/tmp/*
-html/tmp/cache
+html/tmp/cache/*

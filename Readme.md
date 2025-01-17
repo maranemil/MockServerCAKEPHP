@@ -11,6 +11,9 @@ composer install
 
 chmod -R 777 logs/
 chmod -R 777 tmp/
+
+a2enmod rewrite
+# restart server
 ~~~
 
 ### Start docker
