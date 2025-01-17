@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+
+  php-api:
+    container_name: cake-api
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:80"
+      - "8082:80"
+      - "8083:80"
+    volumes:
+      - ./html:/var/www/html
+      - ./logs:/var/log/apache2
+#    networks:
+#      - my-external-network
+
+#networks:
+#  my-external-network:
+#    name: remote-network
+#    external: true

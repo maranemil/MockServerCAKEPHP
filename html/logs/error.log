@@ -1,0 +1,355 @@
+2024-08-21 18:00:52 error: [ParseError] syntax error, unexpected token ";", expecting ")" in /var/www/html/templates/Pages/home.php on line 3
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/src/Controller/PagesController.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/webroot/index.php:37
+- /var/www/html/index.php:16
+- [main]:
+
+Request URL: /
+Client IP: 172.18.0.1
+2024-08-21 18:31:27 error: [TypeError] App\Application::App\{closure}(): Argument #1 ($request) must be of type App\ServerRequest, Cake\Http\ServerRequest given in /var/www/html/src/Application.php on line 72
+Stack Trace:
+- [internal]:??
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:130
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/webroot/index.php:37
+- [main]:
+
+Request URL: /echo/get-status
+Client IP: 172.18.0.1
+2024-08-21 18:32:16 error: [TypeError] App\Application::App\{closure}(): Argument #1 ($request) must be of type App\ServerRequest, Cake\Http\ServerRequest given in /var/www/html/src/Application.php on line 72
+Stack Trace:
+- [internal]:??
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:130
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/webroot/index.php:37
+- [main]:
+
+Request URL: /echo/get-status
+Client IP: 172.18.0.1
+2024-08-21 18:32:34 error: [TypeError] App\Application::App\{closure}(): Argument #1 ($request) must be of type App\ServerRequest, Cake\Http\ServerRequest given in /var/www/html/src/Application.php on line 72
+Stack Trace:
+- [internal]:??
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:130
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/webroot/index.php:37
+- [main]:
+
+Request URL: /echo/get-status
+Client IP: 172.18.0.1
+2024-08-21 18:34:40 error: [TypeError] App\Application::App\{closure}(): Argument #1 ($request) must be of type App\ServerRequest, Cake\Http\ServerRequest given in /var/www/html/src/Application.php on line 72
+Stack Trace:
+- [internal]:??
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:130
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/webroot/index.php:37
+- [main]:
+
+Request URL: /echo/get-status
+Client IP: 172.18.0.1
+2024-12-19 16:22:50 warning: SplFileInfo::openFile(/var/www/html/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 544
+Cake\ORM\Table->getSchema() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 658
+Cake\ORM\Table->getPrimaryKey() /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 188
+Cake\ORM\Marshaller->one() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 2959
+Cake\ORM\Table->newEntity() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 289
+DebugKit\ToolbarService->saveData() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 37
+/var/www/html/index.php /var/www/html/index.php, line 16
+[main]
+
+2024-12-19 16:22:50 warning: SplFileInfo::openFile(/var/www/html/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 544
+Cake\ORM\Table->getSchema() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 658
+Cake\ORM\Table->getPrimaryKey() /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 188
+Cake\ORM\Marshaller->one() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 2959
+Cake\ORM\Table->newEntity() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 289
+DebugKit\ToolbarService->saveData() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 37
+/var/www/html/index.php /var/www/html/index.php, line 16
+[main]
+
+2024-12-19 16:22:50 warning: SplFileInfo::openFile(/var/www/html/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 544
+Cake\ORM\Table->getSchema() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 658
+Cake\ORM\Table->getPrimaryKey() /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 188
+Cake\ORM\Marshaller->one() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 2959
+Cake\ORM\Table->newEntity() /var/www/html/vendor/cakephp/cakephp/src/ORM/Association.php, line 1171
+Cake\ORM\Association->__call() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 301
+DebugKit\ToolbarService->saveData() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 37
+/var/www/html/index.php /var/www/html/index.php, line 16
+[main]
+
+2024-12-19 16:22:50 warning: SplFileInfo::openFile(/var/www/html/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 544
+Cake\ORM\Table->getSchema() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 658
+Cake\ORM\Table->getPrimaryKey() /var/www/html/vendor/cakephp/cakephp/src/ORM/Marshaller.php, line 188
+Cake\ORM\Marshaller->one() /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php, line 2959
+Cake\ORM\Table->newEntity() /var/www/html/vendor/cakephp/cakephp/src/ORM/Association.php, line 1171
+Cake\ORM\Association->__call() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 301
+DebugKit\ToolbarService->saveData() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 37
+/var/www/html/index.php /var/www/html/index.php, line 16
+[main]
+
+2024-12-19 16:22:50 warning: SplFileInfo::openFile(/var/www/html/tmp/cache/persistent/myapp_cake_core_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 205
+Cake\I18n\TranslatorRegistry->get() /var/www/html/vendor/cakephp/cakephp/src/I18n/I18n.php, line 149
+Cake\I18n\I18n::getTranslator() /var/www/html/vendor/cakephp/cakephp/src/I18n/functions.php, line 84
+/var/www/html/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 305
+DebugKit\ToolbarService->saveData() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 37
+/var/www/html/index.php /var/www/html/index.php, line 16
+[main]
+
+2024-12-19 16:22:50 warning: SplFileInfo::openFile(/var/www/html/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 177
+DebugKit\Cache\Engine\DebugEngine->get() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 205
+Cake\I18n\TranslatorRegistry->get() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 253
+Cake\I18n\TranslatorRegistry->createInstance() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 238
+Cake\I18n\TranslatorRegistry->_getTranslator() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 208
+Cake\I18n\TranslatorRegistry->get() /var/www/html/vendor/cakephp/cakephp/src/I18n/I18n.php, line 149
+Cake\I18n\I18n::getTranslator() /var/www/html/vendor/cakephp/cakephp/src/I18n/functions.php, line 84
+/var/www/html/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 305
+DebugKit\ToolbarService->saveData() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 37
+/var/www/html/index.php /var/www/html/index.php, line 16
+[main]
+
+2024-12-19 16:22:50 warning: SplFileInfo::openFile(/var/www/html/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 209
+Cake\I18n\TranslatorRegistry->get() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 253
+Cake\I18n\TranslatorRegistry->createInstance() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 238
+Cake\I18n\TranslatorRegistry->_getTranslator() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 208
+Cake\I18n\TranslatorRegistry->get() /var/www/html/vendor/cakephp/cakephp/src/I18n/I18n.php, line 149
+Cake\I18n\I18n::getTranslator() /var/www/html/vendor/cakephp/cakephp/src/I18n/functions.php, line 84
+/var/www/html/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 305
+DebugKit\ToolbarService->saveData() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 37
+/var/www/html/index.php /var/www/html/index.php, line 16
+[main]
+
+2024-12-19 16:22:50 warning: SplFileInfo::openFile(/var/www/html/tmp/cache/persistent/myapp_cake_core_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: Failed to open stream: Permission denied
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 147
+DebugKit\Cache\Engine\DebugEngine->set() /var/www/html/vendor/cakephp/cakephp/src/I18n/TranslatorRegistry.php, line 209
+Cake\I18n\TranslatorRegistry->get() /var/www/html/vendor/cakephp/cakephp/src/I18n/I18n.php, line 149
+Cake\I18n\I18n::getTranslator() /var/www/html/vendor/cakephp/cakephp/src/I18n/functions.php, line 84
+/var/www/html/vendor/cakephp/cakephp/src/I18n/Number.php /var/www/html/vendor/cakephp/cakephp/src/I18n/Number.php, line 106
+Cake\I18n\Number::toReadableSize() /var/www/html/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\Panel\TimerPanel->summary() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 305
+DebugKit\ToolbarService->saveData() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 67
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 37
+/var/www/html/index.php /var/www/html/index.php, line 16
+[main]
+
+2024-12-19 16:22:50 error: [PDOException] SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 159
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/Statement.php:159
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php:38
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php:313
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Driver.php:298
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:263
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:263
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:222
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2181
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:2074
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1969
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1600
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:632
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1600
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1968
+- /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php:311
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/webroot/index.php:37
+- /var/www/html/index.php:16
+- [main]:
+
+Request URL: /echo
+Client IP: 172.20.0.1
+2024-12-19 16:22:50 warning: Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 239
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-19 16:22:50 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 239
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-12-19 16:22:50 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /echo
+Client IP: 172.20.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 308
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 239
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
