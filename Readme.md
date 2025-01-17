@@ -2,6 +2,22 @@
 
 ## Simple Mock Server made with CakePHP
 
+### install
+~~~
+Run in container:
+
+composer install
+
+chmod -R 777 logs/
+chmod -R 777 tmp/
+~~~
+
+### Start docker
+~~~sh
+/usr/bin/docker compose -f ~/Git/MockServerCAKEPHP/docker-compose.yml -p mockservercakephp up -d
+~~~
+
+
 ### endpoints 
 
 ~~~text
