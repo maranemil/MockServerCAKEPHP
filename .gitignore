@@ -1,3 +1,5 @@
 logs/*
 .idea
 html/vendor/*
+html/logs/*
+html/tmp/*
